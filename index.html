@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italianas Layps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-dark p-4" id="cabecalho" data-bs-theme="dark">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Pizzaria Italicana</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pizzaria">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Pizzaria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#momentos">
+                            <i class="bi bi-star-fill"></i>
+                            Momentos Especiais
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardapio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-scroll="true">
+        <section>
+            <!-- Carousel de Imagens Apresentaçao -->
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img  src="/images/pizza.jpg" alt="Imagem de uma pizza">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/pizza2.jpg" alt="uma imagem de uma pizza">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/focaccia.jpg" alt="uma imagem de uma focaccia">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <!-- Sobre a Pizzaria e o Espaço-->
+            <div id="pizzaria" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="sobre_nos col-md-5">
+                            <img src="/images/pizza_Somos.jpg" class="d-block w-100 rounded" alt="Imagem de um homem fazendo pizza">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a Pizzaria</h2>
+                            <p>Nós somos uma pizzaria familiar apaixonada por proporcionar experiências gastronômicas incríveis para nossos clientes. Fundada em 1995, a Pizzaria Delícia é conhecida por suas deliciosas pizzas feitas com ingredientes frescos e de alta qualidade.</p>
+                        </p>
+                            <h3 class="section-title">Sobre o Espaco</h3>
+                            <p>Bem-vindo ao nosso espaço acolhedor e charmoso, onde cada detalhe foi pensado para proporcionar uma experiência memorável aos nossos clientes. Com uma decoração que evoca o calor da Itália, nossos ambientes internos e externos convidam você a desfrutar de momentos especiais com seus amigos e familiares. Deixe-se envolver pela atmosfera descontraída e pelo aroma tentador das pizzas frescas que saem do forno</p>
+                        </p>
+                        </p>
+                            <ul>
+                                <li>Localização Central e Acessível</li>
+                                <li>Opções de Assentos Variadas</li>
+                                <li>Ambiente Aconchegante e Familiar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secao Momentos Especiais -->
+        <section id="momentos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <li class="nav-item fw-bold">
+                    <h2 class="section-title text-center">Momentos Especiais</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/wine.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  fs-4">
+                            <i class="bi bi-star-fill"></i>
+                            Celebrando Momentos Especiais
+                        </h3>
+                        <p>Neste dia especial, convidamos você a se juntar a nós para celebrar momentos de alegria, amor e gratidão. É uma oportunidade única para reunir amigos e familiares em um ambiente repleto de sorrisos e felicidade. Que esta celebração seja o início de muitas memórias preciosas que iremos compartilhar juntos.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/food.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  fs-4">
+                            <i class="bi bi-heart-fill"></i>
+                            Juntos, Criando Memórias Inesquecíveis
+                        </h3>
+                        <p>Hoje é um dia para celebrar o amor, a união e a amizade. Em meio a risadas e abraços calorosos, estamos juntos para criar memórias que serão lembradas para sempre. Que cada momento compartilhado nesta ocasião especial fortaleça os laços que nos unem e nos inspire a viver cada dia com mais alegria e gratidão.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/people.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Festejando a Alegria da Vida
+                        </h3>
+                        <p>Nesta festa animada, estamos celebrando a vida e todas as suas bênçãos. É um momento para espalhar alegria, dançar ao som da música e desfrutar da companhia uns dos outros. Que esta celebração seja um lembrete do quanto somos abençoados e gratos por cada momento de felicidade que compartilhamos juntos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secão de cardapio -->
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="">Cardapio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link active">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class=" fw-bold text-start nav-link ">Bebidas alcoolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Pizza" class=" fw-bold text-start nav-link ">Pizzas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Pizza-doce" class=" fw-bold text-start nav-link ">Pizza Doce</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- Bebidas sem Alcool -->
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/bebidas/coca-cola.jpg" alt="Coca cola">
+                                        <h5 class=" fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Sucos/lemon-tea.jpg" alt="Suco de Laranja">
+                                        <h5 class=" fw-bold mt-2">Suco limoes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Sucos/smoothies.jpg" alt="Suco de morango">
+                                        <h5 class=" fw-bold mt-2">Suco limoes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Bebidas Alcolicas -->
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/bebidas/wine.jpg" alt="Cerveja">
+                                        <h5 class=" fw-bold mt-2">Vinho</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/bebidas/beer.jpg" alt="Vinho">
+                                        <h5 class=" fw-bold mt-2">Cerveja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--secao de Pizza  -->
+                            <div class="tab-pane" id="Pizza">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/espinafre_bacon.avif" alt="Pizza de espinafre">
+                                        <h5 class=" fw-bold mt-2">Pizza de espinafre e bacon</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/Pizza_peperone.jpg" alt="Pizza_peperone">
+                                        <h5 class=" fw-bold mt-2">Pizza de Pepperoni </h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/pizza-cogumelo.jpg" alt="pizza-cogumelo">
+                                        <h5 class=" fw-bold mt-2">Pizza cremosa de cogumelo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/Pizza-frango-tomate-queijo.jpg" alt="Pizza de Frango">
+                                        <h5 class=" fw-bold mt-2">Pizza de frando com tomate</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pizza Doce -->
+                            <div class="tab-pane" id="Pizza-doce">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/pizza-chocolate.jpg" alt="pizza de chocolate">
+                                        <h5 class=" fw-bold mt-2">Pizza doce com chocolate e morango</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/pizza_de_chocolate_com_Bis.avif" alt="Pizza de chocolate com bis">
+                                        <h5 class=" fw-bold mt-2">Pizza de Chocolate e Recheado com biz</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Pizza/Pizza de morango.jpg" alt="pizza de morango">
+                                        <h5 class=" fw-bold mt-2">Pizza de morango</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">Fale <span class="">Conosco</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label fw-bold ">Seu Nome</label>
+                                    <input type="text" id="name" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold ">Seu Email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold ">Seu Telefone (opcional) </label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagen" class="form-label fw-bold ">Seu Nome</label>
+                                    <textarea id="mensagen" class="form-control" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 ">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Rede Sociais
+                                </h3>
+                                <ul class="social-link">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Texte Exenplo n:145 Bairro bootstrap - Sao Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll > 50) { /* Quando o scroll é maior que 50px */
+                $('.navbar').css('background-color', 'rgba(50, 50, 50, 0.8)'); /* Altera a cor de fundo com transparência */
+                } else {
+                $('.navbar').css('background-color', '#323232'); /* Restaura a cor de fundo original */
+                }
+            });
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>

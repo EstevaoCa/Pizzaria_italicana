@@ -1,0 +1,57 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.carousel-item img{
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+}
+.nav-pills .nav-link.active{
+    background-color: #212529;
+    color: #fff;
+}
+.nav-link{
+    color: #B89E97;
+}
+.sobre_nos img{
+    height: 450px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+.section-title{
+    color: #B89E97;
+}
+#pizzaria,
+#cardapio {
+    background-color: #F0F4E4;
+}
+.tab-pane img{
+    height: 160px;
+    object-fit: cover;
+    
+}
+.social-link li{
+    list-style: none;
+    display: inline;
+}
+.social-link li a{
+    text-decoration: none;
+}
+i{
+    color: #B89E97;
+}
+
+
